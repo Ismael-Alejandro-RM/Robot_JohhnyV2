@@ -18,7 +18,7 @@ sudo netplan apply
 
 ### Protocolo de comunicación TTL -Half duplex (conector de 3 pines) 
 
- TTL: Realiza comunicaciones a traves de variaciones de voltaje (0-5V), es asincrono (no depende de una señal de reloj), utiliza 2 puertos de comunicación TX(Transmite datos) y RX(Recibe datos). Entre 2 dispositivos se trabaja con la modalidad maestro-esclavo, es decir en este protocolo solo uno de los dispositvcos puede tener el control de la línea de comunicación.
+ - TTL: Realiza comunicaciones a traves de variaciones de voltaje (0-5V), es asincrono (no depende de una señal de reloj), utiliza 2 puertos de comunicación TX(Transmite datos) y RX(Recibe datos). Entre 2 dispositivos se trabaja con la modalidad maestro-esclavo, es decir en este protocolo solo uno de los dispositvcos puede tener el control de la línea de comunicación.
 
 ### Características técnicas más relevantes
 
