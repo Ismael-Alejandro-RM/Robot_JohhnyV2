@@ -32,5 +32,8 @@ sudo netplan apply
 
 **Retroalimentación:** Posición, temperatura, carga, voltaje de entrada, etc.
 
+#Comandos de la raspberry
+shutdown now -Para apagar la raspberry
+reboot - para reiniciarla
 
 
