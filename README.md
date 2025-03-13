@@ -32,6 +32,9 @@ sudo netplan apply
 
 **Retroalimentación:** Posición, temperatura, carga, voltaje de entrada, etc.
 
+## comando scp
+https://dabeen.medium.com/tips-using-scp-with-password-bd2ed6d9aecd
+
 #Comandos de la raspberry
 shutdown now -Para apagar la raspberry
 reboot - para reiniciarla
