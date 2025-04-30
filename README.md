@@ -1,4 +1,4 @@
-# Robot_JohhnyV2
+# Robot_JohnnyV2
 
 ## Configuración en ROS
 
@@ -39,4 +39,5 @@ https://dabeen.medium.com/tips-using-scp-with-password-bd2ed6d9aecd
 shutdown now -Para apagar la raspberry
 reboot - para reiniciarla
 
+sudo dmesg | grep tty - para visualizar el nombre de los puertos seriales conectados
 
