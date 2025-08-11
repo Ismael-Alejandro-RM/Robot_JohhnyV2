@@ -12,11 +12,16 @@ sudo netplan try
 sudo netplan apply
 
 ### Conexión por ssh
-
+```
+ssh johnnyv2@192.168.0.100
+```
 
 ### enviar un archivo desde mi pc a la raspberry via WIFI
 
+```
 scp ~/ros2_ws/src/dynamixel-workbench/dynamixel_workbench_controllers/src/move_dyn.cpp johnnyv2@192.168.0.100:~/ros2_ws/src/dynamixel-workbench/dynamixel_workbench_controllers/src/move_dyn.cpp 
+```
+
 
 ## Información de los motores Dynamixel MX-28
 
