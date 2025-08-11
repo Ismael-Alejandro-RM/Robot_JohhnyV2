@@ -3,7 +3,7 @@
 ## Configuración en ROS
 
 
-Configuracion del entorno de Red 
+### Configuracion del entorno de Red 
 
 cd /etc/netplan/
 sudo nano 50-cloud-init.yaml
@@ -11,8 +11,12 @@ sudo nano 50-cloud-init.yaml
 sudo netplan try
 sudo netplan apply
 
+### Conexión por ssh
 
 
+### enviar un archivo desde mi pc a la raspberry via WIFI
+
+scp ~/ros2_ws/src/dynamixel-workbench/dynamixel_workbench_controllers/src/move_dyn.cpp johnnyv2@192.168.0.100:~/ros2_ws/src/dynamixel-workbench/dynamixel_workbench_controllers/src/move_dyn.cpp 
 
 ## Información de los motores Dynamixel MX-28
 
