@@ -50,3 +50,7 @@ reboot - para reiniciarla
 
 sudo dmesg | grep tty - para visualizar el nombre de los puertos seriales conectados
 
+Para visualizar el ID de los puertos seriales conectados
+```
+ls -l /dev/serial/by-id/ 
+```
