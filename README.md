@@ -50,6 +50,13 @@ reboot - para reiniciarla
 
 sudo dmesg | grep tty - para visualizar el nombre de los puertos seriales conectados
 
+## Ejecutar el paquete del sensor witmotion WT901C-TTL
+```
+ros2 launch witmotion_ros wt901.launch.py
+``
+
+
+
 Para visualizar el ID de los puertos seriales conectados
 ```
 ls -l /dev/serial/by-id/ 
