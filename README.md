@@ -1,20 +1,30 @@
 # Robot_JohnnyV2
 
-## Configuración en ROS
 
-
-### Configuracion del entorno de Red 
-
+## Configuracion del entorno de Red 
+```
 cd /etc/netplan/
+```
+```
 sudo nano 50-cloud-init.yaml
-
+```
+```
 sudo netplan try
+```
+```
 sudo netplan apply
+```
+
+Probar la conexión a internet usando la terminal 
+```
+ping -c 4 google.com
+```
 
 ### Conexión por ssh
 ```
 ssh johnnyv2@192.168.0.100
 ```
+## Configuración en ROS
 
 ### enviar un archivo desde mi pc a la raspberry via WIFI
 
